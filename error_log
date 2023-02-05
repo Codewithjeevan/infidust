@@ -1,0 +1,18 @@
+[28-Jun-2022 16:27:42 UTC] PHP Deprecated:  Required parameter $message follows optional parameter $level in /home2/kampruid/infidust.com/system/core/Common.php on line 348
+[28-Jun-2022 16:27:42 UTC] PHP Fatal error:  Uncaught TypeError: filter_var(): Argument #3 ($options) must be of type array|int, string given in /home2/kampruid/infidust.com/system/core/Input.php:392
+Stack trace:
+#0 /home2/kampruid/infidust.com/system/core/Input.php(392): filter_var('208.91.198.72', 275, '')
+#1 /home2/kampruid/infidust.com/system/core/Input.php(355): CI_Input->valid_ip('208.91.198.72')
+#2 /home2/kampruid/infidust.com/system/libraries/Session.php(331): CI_Input->ip_address()
+#3 /home2/kampruid/infidust.com/system/libraries/Session.php(109): CI_Session->sess_create()
+#4 /home2/kampruid/infidust.com/system/core/Loader.php(1100): CI_Session->__construct()
+#5 /home2/kampruid/infidust.com/system/core/Loader.php(976): CI_Loader->_ci_init_class('session', '', NULL, NULL)
+#6 /home2/kampruid/infidust.com/system/core/Loader.php(217): CI_Loader->_ci_load_class('Session', NULL, NULL)
+#7 /home2/kampruid/infidust.com/system/core/Loader.php(1179): CI_Loader->library('session')
+#8 /home2/kampruid/infidust.com/system/core/Loader.php(153): CI_Loader->_ci_autoloader()
+#9 /home2/kampruid/infidust.com/system/core/Controller.php(52): CI_Loader->initialize()
+#10 /home2/kampruid/infidust.com/application/controllers/home.php(6): CI_Controller->__construct()
+#11 /home2/kampruid/infidust.com/system/core/CodeIgniter.php(309): Home->__construct()
+#12 /home2/kampruid/infidust.com/index.php(202): require_once('/home2/kampruid...')
+#13 {main}
+  thrown in /home2/kampruid/infidust.com/system/core/Input.php on line 392

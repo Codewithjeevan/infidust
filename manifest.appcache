@@ -1,0 +1,37 @@
+CACHE MANIFEST
+# v1.0 : 10-08-2020
+ 
+CACHE:
+# pages
+
+ 
+# styles & scripts
+https://www.infidust.com/assets-public/dist/css/pace-theme-center-simple.css
+https://www.infidust.com/assets-public/bower_components/font-awesome/css/font-awesome.min.css
+https://www.infidust.com/assets-public/bower_components/animate.css/animate.min.css
+https://www.infidust.com/assets-public/dist/css/skins/skin-blue.min.css
+https://www.infidust.com/assets-public/dist/css/bootstrap-material-design.min.css
+https://www.infidust.com/assets-public/dist/css/gijgo.min.css
+https://www.infidust.com/assets-public/dist/js/gijgo.min.js
+https://www.infidust.com/assets-public/dist/js/pace.js
+
+https://www.infidust.com/assets-public/dist/js/popper.js
+https://www.infidust.com/assets-public/dist/js/bootstrap-material-design.js
+
+https://www.infidust.com/assets-public/dist/font/MontserratAlternates-ExtraBold.otf
+https://www.infidust.com/assets-public/dist/font/Montserrat-Black.otf
+https://www.infidust.com/assets-public/dist/font/Montserrat-Bold.otf
+https://www.infidust.com/assets-public/dist/font/Montserrat-Light.otf
+https://www.infidust.com/assets-public/dist/font/Montserrat-Medium.otf
+https://www.infidust.com/assets-public/dist/font/Montserrat-Regular.otf
+https://www.infidust.com/assets-public/dist/font/Montserrat-Thin.otf
+
+
+# images
+
+ 
+NETWORK:
+
+
+FALLBACK:
+/ /offline.html
